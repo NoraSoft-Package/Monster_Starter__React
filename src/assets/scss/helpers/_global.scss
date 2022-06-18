@@ -1,13 +1,7 @@
 @use "var" as *;
-html {
-  box-sizing: border-box;
-}
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  transition: all $trans;
-  padding: 0;
-  margin: 0;
+// body styles
+body {
+  overflow-x: hidden;
+  min-height: 150vh;
 }

@@ -1,6 +1,11 @@
-import React from "react";
-import cl from "./index.module.scss";
+import { Container } from "react-bootstrap";
 
-export const SiteButton: React.FC = () => {
-  return <button>Test</button>;
+const MainContainer = ({ children, className = "" }) => {
+  return (
+    <Container className={className}>
+      <Container>{children}</Container>
+    </Container>
+  );
 };
+
+export default MainContainer;
