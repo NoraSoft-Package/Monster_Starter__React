@@ -1,7 +1,7 @@
 // must to import all images you need for this app
-import test from "../assets/photos/test.png";
+import react from "../assets/photos/react.jpg";
 
 // must export all the images to use them in any file
 export default {
-  test,
+  react,
 };

@@ -6,7 +6,7 @@
 
 class AppURL {
   // your domain name
-  static Base = "http://127.0.0.1:8000";
+  static Base = "http://localhost:5000";
   // the api name
   static BaseURL = `${this.Base}/api`;
 
@@ -18,7 +18,7 @@ class AppURL {
   static CompileURL = (methodName: string) => `${AppURL.BaseURL}/${methodName}`;
 
   // the api properties
-  static TestURL = AppURL.CompileURL("test");
+  static CustomersURL = AppURL.CompileURL("customers");
 }
 
 export default AppURL;
